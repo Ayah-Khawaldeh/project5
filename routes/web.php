@@ -59,3 +59,23 @@ Route::get('/job_post', function () {
 Route::get('/view_post', function () {
     return view('recruiter.view_post');
 });
+
+// *************************** dashboard
+Route::get('/Category', function () {
+    return view('Category');
+});
+Route::get('/Jobs', function () {
+    return view('Manage_Jobs');
+});
+Route::get('/Users', function () {
+    return view('Manage_Users');
+});
+Route::get('/recruiters', function () {
+    return view('Mange_Recruiters');
+});
+Route::post('/Category/create', 'CategoryController@store');
+Route::get('/Category/{category}/delete', 'CategoryController@delete');
+Route::get('/Category', 'CategoryController@create')->name('Category');
+
+Route::get('/Category/{category}/edit', 'CategoryController@edit');
+Route::post('/category/{category}/update', 'CategoryController@update');
