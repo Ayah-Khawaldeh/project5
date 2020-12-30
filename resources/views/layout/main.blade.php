@@ -33,7 +33,7 @@
 <nav class="navbar navbar-expand-lg navbar-light topbar static-top shadow-sm bg-white osahan-nav-top px-0">
 <div class="container">
 
-<a class="navbar-brand" href="index-2.html"><img src="{{asset('public_theme/images/logo.svg')}}" alt=""></a>
+<a class="navbar-brand" href="index-2.html"><img src="{{asset('public_theme/images/logo.png')}}" ></a>
 
 <form class="d-none d-sm-inline-block form-inline mr-auto my-2 my-md-0 mw-100 navbar-search">
 <div class="input-group">
@@ -91,15 +91,6 @@ Home
     <a class="nav-link " href="http://127.0.0.1:8000/categories"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Categories
     </a>
-    <div class="dropdown-menu" aria-labelledby="navbarDropdownPortfolio">
-    <a class="dropdown-item" href="product.html">Product List</a>
-    <a class="dropdown-item" href="product2.html">Product List 2</a>
-    <a class="dropdown-item" href="product-detail.html">List Detail</a>
-    <a class="dropdown-item" href="profile.html">Profile</a>
-    <a class="dropdown-item" href="company-profile.html">Company Profile</a>
-    <a class="dropdown-item" href="alerts.html">Alerts</a>
-    <a class="dropdown-item" href="messages.html">Messages</a>
-    </div>
     </li>
 <li class="nav-item">
 <a class="nav-link" href="http://127.0.0.1:8000/about">About</a>
@@ -221,7 +212,7 @@ Elevate<small>Exclusive Benefits</small></a>
 </footer>
 
 
-<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="vendor/jquery/jquery.min.js" type="ecb7038e94e4af7c30850274-text/javascript"></script>
+<script data-cfasync="false" src="{{asset('public_theme/vendor/../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js')}}"></script><script src="{{asset('public_theme/vendor/vendor/jquery/jquery.min.js')}}" type="ecb7038e94e4af7c30850274-text/javascript"></script>
 <script src="{{asset('public_theme/vendor/bootstrap/js/bootstrap.bundle.min.js')}}" type="ecb7038e94e4af7c30850274-text/javascript"></script>
 
 

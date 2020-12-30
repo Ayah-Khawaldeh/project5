@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUsersTable extends Migration
+class CreateAccountsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,22 +13,19 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
+        Schema::create('accounts', function (Blueprint $table) {
+            $table->bigIncrements('account_id');
+            $table->string('email');
             $table->string('password');
-            $table->date('date_of_birth')->nullable();
+            $table->date('date_of_birth');
             $table->enum('gender', ['female', 'male']);
             $table->enum('is_active',  ['true', 'false']);
-            $table->bigInteger('number')->nullable();
+            $table->bigInteger('number');
             $table->enum('email_active',['true', 'false'] );
-            $table->text('image')->nullable();
-            $table->string('first_name')->nullable();
-            $table->string('last_name')->nullable();
+            $table->text('image');
+            $table->string('first_name');
+            $table->string('last_name');
             $table->enum('role',['seeker', 'recruiter','admin']);
-            $table->rememberToken();
             $table->timestamps();
         });
     }
@@ -40,6 +37,6 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('accounts');
     }
 }

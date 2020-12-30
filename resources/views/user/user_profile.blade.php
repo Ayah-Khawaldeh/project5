@@ -12,14 +12,13 @@
 <h5 class="font-weight-bold text-dark mb-1 mt-4">Gurdeep Osahan</h5>
 <p class="mb-0 text-muted">UI / UX Designer</p>
 </div>
-<div class="container ml-5">
-    <div class="row">
+<div class="container">
+    <div class="row justify-content-md-center">
     <a class="font-weight-bold p-3 d-block" href="http://127.0.0.1:8000/edit" >
         <button class="btn  btn-lg btn-success" type="button"> Edit profile</button> </a>
 
-        <a class="font-weight-bold p-3 d-block" href="http://127.0.0.1:8000/appliedJob" >
+        <a class="font-weight-bold p-3 d-block" href="http://127.0.0.1:8000/applied_job" >
             <button class="btn  btn-lg btn-success" type="button"> Applied jobs</button> </a>
-
 </div>
 </div>
 </div>
@@ -67,7 +66,7 @@
 <main class="col col-xl-7 order-xl-2 col-lg-12 order-lg-2 col-md-12 col-sm-12 col-12">
 <div class="box shadow-sm rounded bg-white mb-3">
 <div class="box-title border-bottom p-3">
-<h6 class="m-0">About You</h6>
+<h6 class="m-0">About You (Bio)</h6>
 </div>
 <div class="box-body p-3">
 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
@@ -76,45 +75,7 @@
 </p>
 </div>
 </div>
-<div class="box shadow-sm rounded bg-white mb-3">
-<div class="box-title border-bottom p-3">
-<h6 class="m-0">Experience</h6>
-</div>
-<div class="box-body p-3 border-bottom">
-<div class="d-flex align-items-top job-item-header pb-2">
-<div class="mr-2">
-<h6 class="font-weight-bold text-dark mb-0">Web designer</h6>
-<div class="text-truncate text-primary">Spotify Inc.</div>
-<div class="small text-gray-500">Oct 2020 - Present (4 year 7 month) </div>
-</div>
-<img class="img-fluid ml-auto mb-auto" src="images/l3.png" alt="">
-</div>
-<p class="mb-0">Find the most qualified people in the most unexpected places. Information for applicants to consider when applying for local positions. </p>
-</div>
-<div class="box-body p-3 border-bottom">
-<div class="d-flex align-items-top job-item-header pb-2">
-<div class="mr-2">
-<h6 class="font-weight-bold text-dark mb-0">Cloud Software Engineer</h6>
-<div class="text-truncate text-primary">Spotify Inc.</div>
-<div class="small text-gray-500">Oct 2020 - Present (4 year 7 month) </div>
-</div>
-<img class="img-fluid ml-auto mb-auto" src="images/l6.png" alt="">
-</div>
- <p class="mb-0">Find the most qualified people in the most unexpected places. Information for.. </p>
-</div>
-<div class="box-body p-3">
-<div class="d-flex align-items-top job-item-header pb-2">
-<div class="mr-2">
-<h6 class="font-weight-bold text-dark mb-0">UI/UX designer</h6>
-<div class="text-truncate text-primary">Behance</div>
-<div class="small text-gray-500">Oct 2020 - Present (4 year 7 month) </div>
-</div>
-<img class="img-fluid ml-auto mb-auto" src="images/l2.png" alt="">
-</div>
-<p class="mb-0">Wualified people in the most unexpected places. Information for applicants to consider when applying for local positions. The largest community on the web to find and list jobs that aren't restricted by commutes or a specific location.
-</p>
-</div>
-</div>
+
 <div class="box shadow-sm rounded bg-white mb-3">
 <div class="box-title border-bottom p-3">
 <h6 class="m-0">Education</h6>

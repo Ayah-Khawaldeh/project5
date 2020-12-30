@@ -2,6 +2,7 @@
 
 @section('section1')
 
+<h1>hello world</h1>
 <section class="py-5 homepage-search-block position-relative">
     <div class="container">
     <div class="row py-lg-5">
@@ -61,15 +62,15 @@
     <li><img src="{{asset('public_theme/images/facebook.png')}}"></li>
     <li><img src="{{asset('public_theme/images/google.png')}}"></li>
     <li><img src="{{asset('public_theme/images/mit.png')}}"></li>
-    <li><img src="{{asset('public_themeimages/netflix.png')}}"></li>
-    <li><img src="{{asset('public_themeimages/paypal.png')}}"></li>
-    <li><img src="{{asset('public_themeimages/intuit.png')}}"></li>
-    <li><img src="{{asset('public_themeimages/facebook.png')}}"></li>
+    <li><img src="{{asset('public_theme/images/netflix.png')}}"></li>
+    <li><img src="{{asset('public_theme/images/paypal.png')}}"></li>
+    <li><img src="{{asset('public_theme/images/intuit.png')}}"></li>
+    <li><img src="{{asset('public_theme/images/facebook.png')}}"></li>
     </ul>
     
     
     
-    <div class="freelance-projects bg-white py-5">
+    {{-- <div class="freelance-projects bg-white py-5">
     <div class="container">
     <div class="row freelance-slider">
     <div class="col">
@@ -129,7 +130,7 @@
     </div>
     </div>
     </div>
-    </div>
+    </div> --}}
 @endsection
 
 @section('section2')
