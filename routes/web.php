@@ -44,6 +44,18 @@ Route::get('/user_public', function () {
 Route::get('/edit', function () {
     return view('user.edit');
 });
-Route::get('/applied', function () {
+Route::get('/applied_job', function () {
     return view('user.applied_job');
+});
+Route::get('/single', function () {
+    return view('single');
+});
+Route::get('/editrecruiter', function () {
+    return view('recruiter.editrecruiter');
+});
+Route::get('/job_post', function () {
+    return view('recruiter.job_post');
+});
+Route::get('/view_post', function () {
+    return view('recruiter.view_post');
 });

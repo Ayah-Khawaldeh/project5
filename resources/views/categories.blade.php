@@ -1,5 +1,5 @@
 @extends('layout.main')
-
+@section('section1')
 <section class="py-5 bg-dark inner-header">
 <div class="container">
 <div class="row">
@@ -101,3 +101,4 @@ Contrary to popular belief, Lorem Ipsum is not simply...
 </section>
 </div>
 </div>
+@endsection
