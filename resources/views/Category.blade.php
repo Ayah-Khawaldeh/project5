@@ -17,8 +17,17 @@
 
 
                                 <div class="form-group">
-                                    <label for="cc-payment" class="control-label mb-1">job Category</label>
-                                    <select name="job_cat" class="form-control">
+
+
+                                    <div class="form-group">
+                                        <label for="cc-payment" class="control-label mb-1">job Category</label>
+                                        <input id="cc-pament" name="job_cat" type="text" class="form-control">
+                                    </div>
+
+
+
+
+                                    {{-- <select name="job_cat" class="form-control">
                                         <option value="">select job Category</option>
                                         <option>Programming</option>
                                         <option>Web development</option>
@@ -26,7 +35,7 @@
                                         <option>Network Engineering</option>
                                         <option>IT Security – Cyber Security</option>
                                         <option>Hardware and technical support</option>
-                                    </select>
+                                    </select> --}}
 
 
 
